@@ -26,6 +26,7 @@ public class HourlyElectricity implements Serializable {
 
   private static final long serialVersionUID = -575347909928592140L;
   
+  @JsonIgnore
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)
   Long id;

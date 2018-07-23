@@ -43,7 +43,14 @@ public class Panel implements Serializable {
   public Long getId() {
     return id;
   }
+  public Panel() {
+  }
 
+  public Panel(Long id) {
+	    this.id = id;
+  }
+
+  
   public void setId(Long id) {
     this.id = id;
   }
